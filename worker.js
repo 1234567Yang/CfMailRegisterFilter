@@ -86,7 +86,7 @@ export default {
       }));
     } else {
       // 不包含关键词，拒绝邮件
-      message.setReject("[Auto reply] No verification/signup/login keywords found. If this is not a spam, please send to " + SECOND_EMAIL_ADDR + ". If this is a spam: 你推销邮件在狗叫什么？");
+      message.setReject("[Auto email filter] No verification/signup/login keywords found. If this is not a spam, please send to " + SECOND_EMAIL_ADDR + ". If this is a spam: 你推销邮件在狗叫什么？");
     }
   },
 };
