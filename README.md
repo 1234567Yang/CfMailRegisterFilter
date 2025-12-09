@@ -2,7 +2,7 @@
 <div align="center">
   <h1>Cloudflare Email Register Filter</h1>
   
-  [中文]() | [English]()
+  [中文](https://github.com/1234567Yang/CfMailRegisterFilter) | [English](https://github-com.translate.goog/1234567Yang/CfMailRegisterFilter?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp)
 
 </div>
 
