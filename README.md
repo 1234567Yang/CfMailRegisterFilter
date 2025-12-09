@@ -19,6 +19,8 @@
   * 实测发现如果转发至另一个 Cloudflare 名下的域名，即使另一个收件规则是 `FORWARD` ，会无效（比如：`all-spam-and-promote-go-here@yourdomain.com` 不能转发至 `hello@yourdomain.com` 或  `also_hosted_on_cloudflare@yourotherdomain.com`）。不知道是否属于 Cloudflare 的 BUG。
   * 最好是你自己的 Gmail 或 Outlook
 * 用另一个邮箱测试发邮件：邮件正文或标题内包含 `login`, `signup` 等字样，会转发，否则会屏蔽。目前支持中英双语关键词。
+* 下次注册**小平台/无关紧要的平台**的时候，使用 `all-spam-and-promote-go-here@yourdomain.com`。
+  * 警告：非常不建议使用这个注册重要的平台，如自己的 VPS，长期频繁使用的账号等。这里点名批评阿里云推销邮件，根本 Unsubscribe 不了。
 
 ## 杂记
 
